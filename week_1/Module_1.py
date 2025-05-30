@@ -11,7 +11,7 @@ print(my_bool)
 
 my_int_float = float(my_int)
 my_float_int = int(my_float)
-my_bool_int = int(my_bool)
+my_bool_int = int(my_string)
 
 print(my_int_float)
 print(my_float_int)
