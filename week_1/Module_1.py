@@ -49,3 +49,5 @@ result_exponentiation = num_1 ** num_2
 print(num_1)
 print(num_2)
 print(result_average)
+
+
