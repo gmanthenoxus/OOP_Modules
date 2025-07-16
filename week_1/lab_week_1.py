@@ -8,3 +8,10 @@ number_of_students = 20
 my_string = "Welcome to the " + class_name + " module. There are " + str(number_of_students) + " students in this class."
 
 my_string = f"Welcome to the {class_name} module. There are {number_of_students} students in this class."
+
+
+x = 10.5
+print (float(x))
+print (int(x))
+print (str(x))
+print (bool(x)) 
