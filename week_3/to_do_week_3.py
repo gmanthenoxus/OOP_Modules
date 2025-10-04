@@ -1,7 +1,7 @@
 
 """
 Week 3 To-Do List Manager - Interactive Console Application
-===========================================================
+
 
 This program demonstrates advanced Python concepts including:
 - Interactive user input and menu systems
@@ -18,21 +18,20 @@ This is a complete console-based to-do list manager that allows users to:
 - Remove specific tasks by number
 - Exit the program gracefully
 
-Author: [Student Name]
-Date: [Date]
+Author: [IKENNA FRAKLIN EZEMA]
 """
 
-# =============================================================================
+
 # GLOBAL DATA STRUCTURE
-# =============================================================================
+
 
 # Initialize an empty list to store tasks
 # This list will persist throughout the program execution
 tasks = []  # Global list to store all user tasks
 
-# =============================================================================
+
 # FUNCTION DEFINITIONS
-# =============================================================================
+
 
 # Function to add a task to the list
 def add_task():
@@ -90,9 +89,9 @@ def remove_task():
     except ValueError:  # Handle case where user enters non-numeric input
         print("Please enter a valid number.")
 
-# =============================================================================
+
 # MAIN PROGRAM LOOP
-# =============================================================================
+
 
 # Main program loop - continues until user chooses to quit
 while True:  # Infinite loop until break statement
@@ -118,4 +117,4 @@ while True:  # Infinite loop until break statement
     else:
         print("Invalid choice. Please try again.")  # Handle invalid menu choice
 
-# Program ends here when user selects option 4
+

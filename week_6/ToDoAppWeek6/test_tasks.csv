@@ -1,0 +1,3 @@
+title,type,date_due,completed,interval,completed_dates,date_created
+Buy groceries,Task,2024-01-20,False,,,2025-07-18
+Do laundry,Task,2024-01-22,False,,,2025-07-18

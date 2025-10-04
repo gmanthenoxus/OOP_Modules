@@ -1,6 +1,6 @@
 """
 Week 3 Lab - Functions and Error Handling
-==========================================
+
 
 This lab demonstrates fundamental Python programming concepts including:
 - Function definition and calling
@@ -11,13 +11,12 @@ This lab demonstrates fundamental Python programming concepts including:
 - Mathematical calculations with functions
 - List iteration and string formatting
 
-Author: [Student Name]
-Date: [Date]
+Author: [IKENNA FRAKLIN EZEMA]
 """
 
-# =============================================================================
+
 # SECTION 1: BASIC FUNCTIONS WITH PARAMETERS
-# =============================================================================
+
 
 # Task: greet_friends
 # Function that takes a list of names and greets each person
@@ -39,9 +38,9 @@ friend_list = ["John", "Jane", "Jack"]  # Create a list of friends
 greet_friends(friend_list)  # Call function with the friend list
 # Expected output: Hello John!, Hello Jane!, Hello Jack!
 
-# =============================================================================
+
 # SECTION 2: FUNCTIONS WITH RETURN VALUES
-# =============================================================================
+
 
 # Task: calculate_tax
 # Function that calculates tax based on income and tax rate
@@ -62,9 +61,9 @@ def calculate_tax(income, tax_rate):
 print("Tax on £50,000 at 20% rate:", calculate_tax(50000, 0.2))  # Expected: 10000.0
 print("Tax on £30,000 at 15% rate:", calculate_tax(30000, 0.15))  # Expected: 4500.0
 
-# =============================================================================
+
 # SECTION 3: COMPLEX FUNCTIONS WITH VALIDATION AND LOOPS
-# =============================================================================
+
 
 # Task: compound_interest
 # Function that calculates compound interest over multiple years with input validation
@@ -102,18 +101,18 @@ def compound_interest(principal, duration, interest_rate):
 final_amount = compound_interest(1000, 5, 0.03)  # £1000 for 5 years at 3%
 print("Final Amount:", final_amount)  # Expected: 1159
 
-# =============================================================================
+
 # SECTION 4: TESTING WITH ASSERTIONS
-# =============================================================================
+
 
 # Task: assertion
 # Use assert to test that our function returns the expected result
 assert compound_interest(1000, 5, 0.03) == 1159  # Test passes if function returns 1159
 # If assertion fails, program will stop with AssertionError
 
-# =============================================================================
+
 # SECTION 5: COMMON PYTHON ERRORS AND FIXES
-# =============================================================================
+
 
 # Task: Fix common errors
 # This section demonstrates common Python errors and their corrections
