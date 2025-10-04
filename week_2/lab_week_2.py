@@ -1,6 +1,5 @@
 """
-Week 2 Lab - Python Fundamentals
-=================================
+Week 2 Lab - Python Fundamentals 
 
 This lab demonstrates fundamental Python programming concepts including:
 - Variables and data types
@@ -12,13 +11,12 @@ This lab demonstrates fundamental Python programming concepts including:
 - User input and basic data conversion
 - Temperature conversion program
 
-Author: [Student Name]
-Date: [Date]
+Author: [GLORY TITILOPE OLANREWAJU]
 """
 
-# =============================================================================
+
 # SECTION 1: VARIABLES AND COMPARISON OPERATORS
-# =============================================================================
+
 
 # Variables Definition
 # Initialize two integer variables for comparison demonstrations
@@ -44,9 +42,9 @@ print("Greater than or equal to: " ,a5)  # Expected output: False
 print("Less than or equal to: " ,a6)     # Expected output: True
 
 
-# =============================================================================
+
 # SECTION 2: DEMONSTRATING FALSE CONDITIONS
-# =============================================================================
+
 
 # This section demonstrates how to make each comparison operator return False
 # by changing the value of x while keeping y = 51
@@ -81,9 +79,9 @@ x = 58  # Change x to a value greater than y
 a6 = x <= y  # 58 <= 51 → False
 print("Less than or equal to: where x = ", x , "and y = " , y , " the condition is" ,a6)
 
-# =============================================================================
+
 # SECTION 3: LOGICAL OPERATORS
-# =============================================================================
+
 
 # Logical operators combine multiple boolean expressions
 # Current values: x = 58, y = 51
@@ -97,9 +95,9 @@ print("And: " , b1)   # Expected output: True
 print("Or: " , b2)    # Expected output: True
 print("Not: " , b3)   # Expected output: False
 
-# =============================================================================
+
 # SECTION 4: CONDITIONAL STATEMENTS
-# =============================================================================
+
 
 # Conditional Statements (If)
 # Simple if statement - executes code block only if condition is True
@@ -161,9 +159,9 @@ if temperature_1 == temperature_2:  # Condition: 20 == 25 → False
 else:
     print("Temperature 1 is not equal Temperature 2")  # Output: This message
 
-# =============================================================================
+
 # SECTION 5: LISTS AND LIST OPERATIONS
-# =============================================================================
+
 
 # Lists - ordered collections of items that can be modified
 city_list = ["Glasgow", "London", "Edinburgh"]  # Create list with 3 cities
@@ -217,9 +215,9 @@ else:
 selected_colours = colours[1:3]  # Get elements from index 1 to 2
 print(selected_colours)  # Output: ['pink', 'mangenta']
 
-# =============================================================================
+
 # SECTION 6: LOOPS
-# =============================================================================
+
 
 # For loop - iterating through list elements
 print("\nIterating through city list:")
@@ -263,9 +261,9 @@ while countdown > 0:  # Continue while countdown is greater than 0
     countdown -= 1    # Decrease countdown by 1 (equivalent to countdown = countdown - 1)
 print("Liftoff!")     # Print when loop ends (countdown reaches 0)
 
-# =============================================================================
+
 # SECTION 7: USER INPUT AND DATA CONVERSION
-# =============================================================================
+
 
 # User Input - Getting data from user and converting data types
 print("\n--- Age Classification Program ---")
@@ -279,9 +277,9 @@ elif user_age >= 18 and user_age < 66:  # Adult category
 else:  # Senior citizen category (66 and above)
     print("You are a senior citizen")
 
-# =============================================================================
+
 # SECTION 8: TEMPERATURE CONVERSION PROGRAM
-# =============================================================================
+
 
 print("\n--- Temperature Conversion Program ---")
 # Get user input for temperature conversion
@@ -321,5 +319,5 @@ else:
     # Handle case where user tries to convert to same unit or invalid input
     print("You have tried to convert the same temperature unit. Please try again.")
 
-print("\n--- End of Lab ---")
+
 

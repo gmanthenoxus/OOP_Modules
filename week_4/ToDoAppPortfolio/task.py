@@ -1,35 +1,13 @@
 """
 Enhanced Task Module - Portfolio Project
-========================================
 
-This module defines an enhanced Task class for the portfolio To-Do application.
-It demonstrates advanced OOP concepts and features:
-- Extended class attributes (description field)
-- Comprehensive method documentation
-- Enhanced string representation
-- Multiple property modification methods
-- Professional code organization and documentation
-- Type hints for all methods and parameters
+Enhanced Task class with description support for detailed task information.
 
-This is the portfolio version showcasing:
-- More detailed task information
-- Enhanced user experience
-- Professional documentation standards
-- Comprehensive feature set
-
-Author: [Student Name]
-Date: [Date]
+Author: [VICTOR USMAN]
 """
 
-# =============================================================================
-# IMPORTS
-# =============================================================================
+import datetime
 
-import datetime  # Python standard library for date/time operations
-
-# =============================================================================
-# ENHANCED TASK CLASS DEFINITION
-# =============================================================================
 
 class Task:
     """
